@@ -37,15 +37,12 @@ const Sidebar = props => {
         </div>
         <div className="profileImageContainer">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRGAb43NxZswWRLw9RoxC8YwykXlLy_efq2r674Xj0ffRR3D-0P"
+            src="https://mir-s3-cdn-cf.behance.net/projects/original/a4da5e47979489.Y3JvcCw0MDUsMzE3LDAsMA.png"
             alt=""
           />
         </div>
         <div className="cardBody">
-          <p className="personalBio">
-            My name is Rizwan Khan I am a software developer specialization in
-            Front end developement....:)
-          </p>
+          <p className="personalBio">My name is Themeur I love to code....:)</p>
         </div>
       </Card>
 
@@ -57,43 +54,7 @@ const Sidebar = props => {
         }}
       >
         <div className="cardHeader">
-          <span>Social Network</span>
-
-          <link
-            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-            rel="stylesheet"
-            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-            crossorigin="anonymous"
-          />
-          <div class="wrapper">
-            <ul>
-              <li class="facebook">
-                <a href="#">
-                  <i class="fa fa-facebook fa-2x" aria-hidden="true" />
-                </a>
-              </li>
-              <li class="twitter">
-                <a href="#">
-                  <i class="fa fa-twitter fa-2x" aria-hidden="true" />
-                </a>
-              </li>
-              <li class="instagram">
-                <a href="#">
-                  <i class="fa fa-instagram fa-2x" aria-hidden="true" />
-                </a>
-              </li>
-              <li class="google">
-                <a href="#">
-                  <i class="fa fa-google fa-2x" aria-hidden="true" />
-                </a>
-              </li>
-              <li class="whatsapp">
-                <a href="#">
-                  <i class="fa fa-whatsapp fa-2x" aria-hidden="true" />
-                </a>
-              </li>
-            </ul>
-          </div>
+        <iframe width="290" height="205" src="https://www.youtube.com/embed/O8ElQBIenN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </Card>
 

@@ -25,7 +25,7 @@ const RecentPosts = props => {
           <span>Featured</span>
           <h2>Fitness Mantra To Live Fit Life</h2>
           <span>posted onJuly 21, 2016 bySora Blogging Tips</span>
-          <p>
+          <p className="navba12" >
             Midst first it, you're multiply divided. There don't, second his one
             given the he one third rule fruit, very. Fill. Seed give firm...
             Extremity direction existence as Dashwood's do up. Securing Marianne

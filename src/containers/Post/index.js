@@ -19,6 +19,8 @@ const Post = (props) => {
         <Layout>
           <BlogPost {...props} />
         </Layout>
+        
+        <div></div>
    )
 
  }

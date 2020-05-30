@@ -27,12 +27,11 @@ const Navbar = (props) => {
     const searchClass = search ? 'searchInput active' : 'searchInput';
 
   return(
-    <div className="navbar">
+    <div  className="navbar">
         <ul className="navbarMenu">
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/about-us">About Us</NavLink></li>
-            <li><NavLink to="/post">Posts</NavLink></li>
-            <li><NavLink to="/contact-us">Contact Us</NavLink></li>
+            <li><NavLink to="/"><h2 className="navbar12" >Home</h2></NavLink></li>
+            <li><NavLink to="/post"><h2 className="navbar12">Start</h2></NavLink></li>
+            <li><NavLink to="/ContactUS"><h2 className="navbar12">Contact Us</h2></NavLink></li>
         </ul>
         <div className="search">
             <form onSubmit={submitSearch}>
