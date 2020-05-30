@@ -1,18 +1,23 @@
-import React from 'react';
-import './style.css';
+import React from "react";
+import "./style.css";
 
 /**
-* @author
-* @function Logo
-**/
+ * @author
+ * @function Logo
+ **/
 
-const Logo = (props) => {
-  return(
+const Logo = props => {
+  return (
     <div className="logo">
-        <a href="#">Rizwan Khan</a>
+      <a href="#">
+        {" "}
+        <div class="sign">
+          <span class="fast-flicker">wa</span>nn<span class="flicker">a</span>be
+        </div>
+      </a>
+      <br />
     </div>
-   )
+  );
+};
 
- }
-
-export default Logo
+export default Logo;
