@@ -4,34 +4,45 @@
   left: 75%;
   transform: translate(-50%, -50%);
   border-style: dashed solid;
+  border-color: white
 }
 .testingp1{
   position: absolute;
   top: 70%;
   left: 25%;
   transform: translate(-50%, -50%);
+  border-style: dashed solid;
+  border-color: white
 }
 .testingp2{
   position: absolute;
   top: 123%;
   left: 75%;
   transform: translate(-50%, -50%);
+  border-style: dashed solid;
+  border-color: white
 }
 .testingp3{
   position: absolute;
   top: 123%;
   left: 25%;
   transform: translate(-50%, -50%);
+  border-style: dashed solid;
+  border-color: white
 }
 .testingp4{
   position: absolute;
   top: 175%;
   left: 75%;
   transform: translate(-50%, -50%);
+  border-style: dashed solid;
+  border-color: white
 }
 .testingp5{
   position: absolute;
   top: 175%;
   left: 25%;
   transform: translate(-50%, -50%);
+  border-style: dashed solid;
+  border-color: white
 }
