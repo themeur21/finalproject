@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './style.css';
-
 /**
 * @author
 * @function Navbar
@@ -30,7 +29,7 @@ const Navbar = (props) => {
     <div  className="navbar">
         <ul className="navbarMenu">
         <li><NavLink to="/"><h2 className="navbar12" >Home</h2></NavLink></li>
-            <li><NavLink to="/videos"><h2 className="navbar12" >videos</h2></NavLink></li>
+            <li><NavLink to="/video"><h2 className="navbar12" >videos</h2></NavLink></li>
             <li><NavLink to="/contact-us"><h2 className="navbar12" >Contact Us</h2></NavLink></li>
 
         </ul>

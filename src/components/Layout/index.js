@@ -14,9 +14,9 @@ const Layout = props => {
         {props.children}
         <Sidebar />
       </div>
-     
+     <centre>
         <div>
-          <centre>
+          
             <div class="wrapper">
               <ul>
                 <li class="facebook">
@@ -46,7 +46,7 @@ const Layout = props => {
                 </li>
               </ul>
             </div>
-          </centre>
+          
           <link
             href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
             rel="stylesheet"
@@ -54,7 +54,7 @@ const Layout = props => {
             crossorigin="anonymous"
           />
         </div>
-      
+      </centre>
     </React.Fragment>
   );
 };
