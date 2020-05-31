@@ -29,9 +29,11 @@ const Navbar = (props) => {
   return(
     <div  className="navbar">
         <ul className="navbarMenu">
-            <li><NavLink to="/"><h2 className="navbar12" >Home</h2></NavLink></li>
-            <li><NavLink to="/post"><h2 className="navbar12">Start</h2></NavLink></li>
-            <li><NavLink to="/ContactUS"><h2 className="navbar12">Contact Us</h2></NavLink></li>
+        <li><NavLink to="/"><h2 className="navbar12" >Home</h2></NavLink></li>
+            <li><NavLink to="/about-us"><h2 className="navbar12" >About Us</h2></NavLink></li>
+            <li><NavLink to="/post"><h2  className="navbar12" >Posts</h2></NavLink></li>
+            <li><NavLink to="/contact-us"><h2 className="navbar12" >Contact Us</h2></NavLink></li>
+
         </ul>
         <div className="search">
             <form onSubmit={submitSearch}>

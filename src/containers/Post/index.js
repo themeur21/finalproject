@@ -20,7 +20,6 @@ const Post = (props) => {
           <BlogPost {...props} />
         </Layout>
         
-        <div></div>
    )
 
  }
