@@ -14,7 +14,7 @@ const Layout = props => {
         {props.children}
         <Sidebar />
       </div>
-      <center>
+     
         <div>
           <centre>
             <div class="wrapper">
@@ -54,7 +54,7 @@ const Layout = props => {
             crossorigin="anonymous"
           />
         </div>
-      </center>
+      
     </React.Fragment>
   );
 };

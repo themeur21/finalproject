@@ -23,7 +23,7 @@ const RecentPosts = props => {
 
         <div style={{ textAlign: "center" }}>
           <span>Featured</span>
-          <h2>Fitness Mantra To Live Fit Life</h2>
+          <h2 className="ppap" >Fitness Mantra To Live Fit Life</h2>
           <span>posted onJuly 21, 2016 bySora Blogging Tips</span>
           <p className="navba12" >
             Midst first it, you're multiply divided. There don't, second his one
